@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog  </title>
+    <link rel="stylesheet" href="style.css">
+    <ion-icon name="logo-linkedin"></ion-icon>
+</head>
+<body>
+<div id="text">
+
+<h2>Pedro Prando, Web Developer  </h2>
+<br>
+<p>
+Hello, everyone!<br><br>
+My name is Pedro Prando, and I'm very pleased to have this opportunity to introduce myself. I'm an 18-year-old Web Developer from Brazil, specifically from the beautiful state of Espirito Santo (ES).<br><br>
+Currently, I work at EL Software Productions as a research and development center. I've been fortunate to immerse myself in the world of web development, where I get to leverage my skills in JavaScript, HTML, CSS, and Vue.js to create dynamic and engaging web applications.<br><br>
+Ever since I embarked on this journey, I've been passionate about crafting seamless user experiences and pushing the boundaries of what's possible on the web. I'm constantly seeking new challenges and opportunities for growth, whether it's learning a new technology or refining my existing skills.<br><br>
+Outside of work, you can often find me exploring the latest trends in web development, experimenting with new coding techniques, or simply enjoying the great outdoors in beautiful Espirito Santo.<br><br>
+I'm excited about the possibilities that lie ahead in my career, and I look forward to connecting with fellow professionals and enthusiasts in the field. Thank you for taking the time to learn a bit about me!<br>
+</p>
+</div>
+    <button id="meuBotao">My Resume</button>
+    <button id="botaoGit" onclick="window.location.href='https://github.com/pprando?tab=repositories'">
+        <img  id="git" src="images/logo-github.svg" alt="logo-github">
+    </button>
+    <button id="botaoLinkedin" onclick="window.location.href='https://linkedin.com/in/pedro-prando-63a52b258'">
+        <img src="images/logo-linkedin.svg" alt="logo-linkedin">
+    </button>
+    <button id="botaoGmail" > <a href="mailto:pedro.schlens@gmail.com"><img src="images/4550857_email_gmail_mail_sending_yahoo_icon.png" alt="image gmail"></a>
+
+
+    </button>
+
+    <script>
+        document.getElementById("meuBotao").addEventListener("click", function() {
+            window.location.href = "https://meucurriculo-txt.netlify.app/";
+        });
+    </script>
+    <div >
+        <img  id="minhaImagem" src="images/photo_5107478579469462557_y.jpg" alt="image"/> 
+    </div>
+    <h3 id="text">My Skills</h3>
+    <div class="imagens-pequenas">
+        <img src="images/icons8-html-5-100.png" alt="imagem-html">
+        <img src="images/icons8-css-logo-100.png" alt="imagem-css">
+        <img src="images/icons8-javascript-48.png" alt="imagem-js">
+        <img src="images/4375161_logo_vuejs_icon.png" alt="imagem-vue">
+    </div>
+</body>
+</html>
